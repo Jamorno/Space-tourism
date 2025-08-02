@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --font-barlow-sans: 'Barlow', sans-serif;
+  --font-bellefair-sans: 'Bellefair', serif;
+  --font-barlow-condensed: 'Barlow Condensed', sans-serif;
+  --background: #0B0D17;
+}
+
+.bellefair {
+  font-family: var(--font-bellefair-sans);
+}
+
+.barlow {
+  font-family: var(--font-barlow-sans);
+}
+
+.barlowCondensed {
+  font-family: var(--font-barlow-condensed);
+}
+
+body {
+  background: var(--background);
+}
+
+.bg-home {
+  background-image: url('/images/background-home-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .bg-home {
+    background-image: url('/images/background-home-tablet.jpg');
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-home {
+    background-image: url('/images/background-home-desktop.jpg');
+  }
+}
+
+.bg-destination {
+  background-image: url('/images/background-destination-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .bg-destination {
+    background-image: url('/images/background-destination-tablet.jpg');
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-destination {
+    background-image: url('/images/background-destination-desktop.jpg');
+  }
+}
+
+.bg-crew {
+  background-image: url('/images/background-crew-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .bg-crew {
+    background-image: url('/images/background-crew-tablet.jpg');
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-crew {
+    background-image: url('/images/background-crew-desktop.jpg');
+  }
+}
+
+.bg-tech {
+  background-image: url('/images/background-technology-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .bg-tech {
+    background-image: url('/images/background-technology-tablet.jpg');
+  }
+}
+
+@media (min-width: 1440px) {
+  .bg-tech {
+    background-image: url('/images/background-technology-desktop.jpg');
+  }
+}

@@ -17,7 +17,7 @@ export default function Page() {
           <h1 className="bellefair text-white text-[80px] h-[92px] md:text-[144px] md:h-[165px]">SPACE</h1>
 
           <p className="text-[15px] leading-[27px] h-[135px] pt-4 md:text-[16px]">
-            Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this would experience
+            Let&rsquo;s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we&rsquo;ll give you a truly out of this would experience
           </p>
         </div>
 
